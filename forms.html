@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Página de Formulários</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Formulários, palavra-chave 2, palavra-chave 3">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body style="background-color: darkgrey;">
+    <h1>Página de Formulários</h1>
+    <div>
+    <a href="index.html">Página Inicial</a>
+    -
+    <a href="img.html">Página de imagens</a>
+    -
+    <a href="pagh.html">Página de h</a>
+    -
+    <a href="pagp.html">Página de p</a>
+    -
+    <a href="div.html">Página de div</a>
+    -
+    <a href="text-format.html">Página de Text-format</a>
+    -
+    <a href="link-bookmark.html">Página de Link-bookmark</a>
+    -
+    <a href="table.html">Página de Tabelas</a>
+    -
+    <a href="lists.html">Página de Listas</a>
+    -
+    <a href="forms.html">Página de Formulários</a>
+    - 
+    <a href="emoji.html">Página de emojis</a>
+    </div>
+    <form action="form.html">
+        <label for="iptNome">Nome:</label>
+        <input type="text" id="iptNome" name="iptNome" value="Antonio Prata" readonly>
+
+        <br>
+
+        <label for="iptEmail">E-mail:</label>
+        <input type="text" id="iptEmail" placeholder="nome@provedor.com" name="iptEmail">
+        <br>
+        <br>
+        <label for="rdSolteiro">Solteiro</label>
+        <input type="radio" id="rdSolteiro" name="rdEstadoCivil" value="solteiro">
+        <label for="rdCasado">Casado</label>
+        <input type="radio" id="rdCasado" name="rdEstadoCivil" value="casado">
+        <label for="rdMilagre">A espera de um milagre</label>
+        <input type="radio" id="rdMilagre" name="rdEstadoCivil" value="milagre">
+        <br>
+        <br>
+
+        <label for="iptEmail">E-mail:</label>
+        <input type="email" id="iptEmail" placeholder="nome@provedor.com" name="iptEmail2">
+
+
+
+        <br>
+        <label for="iptDataNascimento">Data de nascimento:</label>
+        <input type="date" id="iptDataNascimento" name="iptDataNascimento">
+        
+        
+        <br>
+        <label for="cbMaiorIdade">Maior de idade?</label>
+        <input type="checkbox" id="cbMaiorIdade" name="cbMaiorId" value="true">
+        <br>
+
+        <br>
+        <label for="rdSexoMasculino">Masculino</label>
+        <input type="radio" id="rdSexoMasculino" name="rdSexo" value="masculino" required>
+        <label for="rdSexoFeminino">Feminino</label>
+        <input type="radio" id="rdSexoFeminino" name="rdSexo" value="feminino" required>
+        <label for="rdNInformar">Prefiro não informar</label>
+        <input type="radio" id="rdNInformar" name="rdSexo" value="n-informado" required>
+        <br>
+        <br>
+        <input type="password" required>
+        <input type="color">
+        <input type="file">
+        <br>
+        <input type="number" min="5" max="100" step="10" required>
+
+        <br>
+        <br>      
+        <input type="datetime-local">
+
+        <br>
+        <br>      
+        <input type="reset" value="Limpar dados">
+        <input type="submit" value="Enviar dados">
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="text">
+    </form>
+    
+</body>
+</html>
